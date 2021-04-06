@@ -51,7 +51,3 @@ img3 = cv2.drawMatches(img1, keypoints_1, img2, keypoints_2, matches[:50], img2,
 plt.imshow(img3),plt.show()
 
 
-if len(matches) == 189 or len(matches)<100:
-    print('NO_This user is not authentic')
-else: 
-    print('YES_User can log in')
